@@ -1,0 +1,244 @@
+@font-face {
+    font-family: 'mine';
+    src: url('subpaginas/microwavespersonaluseregular-pkdez-webfont.woff') format('woff'),
+         url('subpaginas/microwavespersonaluseregular-pkdez-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+	  
+*{
+	color:white;
+  padding:0;
+  margin:0;
+  list-style:none;
+  box-sizing:border-box;
+}
+
+.raneira{
+	float: bottom;
+}
+
+
+
+nav{
+  background:red;
+  height:80px;
+  width:100%;
+  font-family: 'mine';
+  position: fixed;
+}
+
+label.logo{
+  color:white;
+  font-size:35px;
+  line-height:80px;
+  padding:0 100px;
+  font-weight:bold;
+  
+}
+
+nav ul{
+  float:right;
+  margin-right:20px;
+}
+
+nav ul li {
+  display:inline-block;
+  line-height:80px;
+  margin:0 5px;
+}
+
+nav ul li a{
+  color:orange;
+  font-size:17px;
+  padding: 7px 10px;
+  border-radius:3px;
+}
+
+a.activo, a:hover{
+  background-color:black;
+  transition:0.5s;
+}
+
+#titulo{
+	padding-top:0.6em;
+	text-align:center;
+	font-size:650%;
+}
+
+.fototitulo{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.titulaciones{
+	text-align:center;
+	font-size:400%;
+}
+
+body{
+	background-image: url("https://elements-video-cover-images-0.imgix.net/files/ac743357-f435-44d7-8472-bd78a04d54a8/inline_image_preview.jpg?auto=compress%2Cformat&fit=min&h=225&w=400&s=9ac9ff51cc432d9174182b8c32b4b6cb");
+	background-repeat:round;
+}
+p,h2,h1{
+	background-color: rgba(0, 0, 0,0.5);
+	margin-left:5px;
+	margin-right:1%;
+	text-align:center;
+	font-size:120%;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.temeiros{
+font-size: 50px;
+text-align: center;
+
+}
+
+#listilla{
+  padding: 20px;
+  display: table;
+  margin: 0 40%;
+  
+  
+}
+
+.lista{
+  color: rgb(0, 4, 255);
+  font-size: 25px;
+}
+
+.concierto{
+  color: brown;
+  padding: 10px;
+}
+#tabla{
+  text-align: center;
+  font-size: 20px;
+  
+  margin: 0 40%;
+}
+
+.formulario{
+  color: darkgoldenrod;
+}
+
+.relleno{
+  background-color: aqua;
+  color: salmon;
+}
+
+@media screen and (max-width:800px) {
+  nav{
+    background:rgb(0, 89, 255);
+    height:80px;
+    width:100%;
+    font-family: 'mine';
+    position: fixed;
+  }
+}
+
+
+
+@media screen and (max-width:1600px) {
+  nav{
+    background:rgb(116, 0, 90);
+    height:80px;
+    width:100%;
+    font-family: 'mine';
+    position: fixed;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  nav{
+    background:rgb(179, 255, 0);
+    height:80px;
+    width:100%;
+    font-family: 'mine';
+    position: fixed;
+  }
+}
+@media screen and (max-width:800px) {
+  nav{
+    background:rgb(24, 31, 27);
+    height:80px;
+    width:100%;
+    font-family: 'mine';
+    position: fixed;
+  }
+}
+@media screen and (max-width:600px) {
+  nav{
+    background:rgb(255, 0, 149);
+    height:80px;
+    width:100%;
+    font-family: 'mine';
+    position: fixed;
+  }
+}
+
+#fotos{
+  text-align: center;
+  font-size: 30px;
+  padding: 5px;
+  font-style: 'mine';
+  color: rgb(117, 0, 82);
+}
+
+#foto{
+  text-align: center;
+  font-size: 30px;
+  padding: 5px;
+  font-style: 'mine';
+  color: rgb(0, 99, 14);
+}
+
+
+.botonera {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton {
+  
+  border: none;
+  cursor: crosshair;
+  transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+  background-color: #ddd;
+}
+
+#insta{
+  background: url(https://www.nicepng.com/png/detail/48-487892_icon-block-sprites-social-media.png) -160px -100px;
+	width: 64px;
+	height: 64px;
+}
+
+#algo{
+  background: url(https://www.nicepng.com/png/detail/48-487892_icon-block-sprites-social-media.png) -90px -100px;
+	width: 64px;
+	height: 64px;
+}
+#facebook{
+  background: url(https://www.nicepng.com/png/detail/48-487892_icon-block-sprites-social-media.png) -230px -100px;
+	width: 64px;
+	height: 64px;
+}
